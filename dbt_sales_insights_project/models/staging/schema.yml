@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw
+    tables:
+      - name: orders
+      - name: customers
+
+models:
+  - name: stg_orders
+    columns:
+      - name: order_id
+        tests: [not_null, unique]
+      - name: total_amount
+        description: "Total order value calculated as quantity * price"
+
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]

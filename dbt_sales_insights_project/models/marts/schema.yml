@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: sales_summary
+    description: "Summary level KPIs per customer"
+    columns:
+      - name: customer_id
+        tests: [not_null]
+      - name: total_orders
+      - name: total_revenue

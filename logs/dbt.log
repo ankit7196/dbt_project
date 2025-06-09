@@ -1,0 +1,29 @@
+[0m18:59:44.474109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001851A1149D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001851A114650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001851A114950>]}
+
+
+============================== 18:59:44.489829 | c9fad5d2-aa87-4881-92ca-74a9cea8c161 ==============================
+[0m18:59:44.489829 [info ] [MainThread]: Running with dbt=1.9.5
+[0m18:59:44.489829 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:/Users/ankit/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init dbt_sales_insights_project', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:59:44.542020 [debug] [MainThread]: Starter project path: C:\Users\ankit\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m18:59:44.629495 [info ] [MainThread]: 
+Your new dbt project "dbt_sales_insights_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:59:44.631499 [info ] [MainThread]: Setting up your profile.
+[0m19:02:21.200975 [info ] [MainThread]: Profile dbt_sales_insights_project written to C:\Users\ankit\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:02:21.207434 [debug] [MainThread]: Command `dbt init` succeeded at 19:02:21.206414 after 156.88 seconds
+[0m19:02:21.209872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001851378AB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001851B93D550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018518F34E90>]}
+[0m19:02:21.213444 [debug] [MainThread]: Flushing usage events
+[0m19:02:23.230664 [debug] [MainThread]: An error was encountered while trying to flush usage events

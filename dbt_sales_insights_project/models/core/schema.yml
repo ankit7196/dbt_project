@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: fct_sales
+    description: "Fact table combining order and customer data"
+    columns:
+      - name: order_id
+        tests: [not_null, unique]
+      - name: total_amount
+        tests: [not_null]
+
+  - name: dim_customers
+    description: "Dimension table for customer details"
+    columns:
+      - name: customer_id
+        tests: [not_null, unique]
