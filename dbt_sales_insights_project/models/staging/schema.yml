@@ -18,3 +18,4 @@ models:
     columns:
       - name: customer_id
         tests: [not_null, unique]
+        description:  "customer id"
